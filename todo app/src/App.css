@@ -1,0 +1,78 @@
+input {
+  width: 100%;
+  height: 40px;
+}
+
+.kg-row {
+  margin: 10px 5px;
+
+}
+
+.kg-button {
+  min-width: 80px;
+  
+}
+
+.kg-button2{
+  min-width: 80px;
+}
+
+
+.todo-continer1{
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 20px;
+}
+
+
+h6{
+  text-align: right;
+  margin-right: 15%;
+  color: rgb(154, 10, 243);
+  
+}
+
+span{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  color: rgb(74, 5, 117);
+}
+/* styles.css */
+
+/* Default styles */
+.todo-continer {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for small screens (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  .todo-continer {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+  }
+  .kg-row {
+    flex-direction: column;
+  }
+  .col-6, .col-4, .col-2 {
+    width: 100%;
+  }
+}
+
+/* Media query for extra small screens (max-width: 400px) */
+@media only screen and (max-width: 400px) {
+  .todo-continer {
+    max-width: 95%;
+    margin: 10px auto;
+    padding: 5px;
+  }
+  .kg-button, .kg-button2 {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+}
